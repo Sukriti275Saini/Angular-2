@@ -1,0 +1,64 @@
+{
+  "Users": [
+    {
+      "id": 101,
+      "fname": "Sukriti",
+      "lname": "Saini",
+      "dob": "1995-05-27",
+      "email": "sukriti.saini@netsolutions.com",
+      "mobileno": 5897462135,
+      "designation": "Trainee-Developer",
+      "address": "Pathankot, India"
+    },
+    {
+      "id": 102,
+      "fname": "Sagar",
+      "lname": "Suri",
+      "dob": "1999-03-15",
+      "email": "sagarsuri@gamil.com",
+      "mobileno": 7895462178,
+      "designation": "Trainee-Developer",
+      "address": "Chandigarh, India"
+    },
+    {
+      "id": 103,
+      "fname": "Aman",
+      "lname": "Kumar",
+      "dob": "1994-01-01",
+      "email": "amankumar@gamil.com",
+      "mobileno": 9874562148,
+      "designation": "Trainee-Developer",
+      "address": "Chandigarh, India"
+    },
+    {
+      "id": 104,
+      "fname": "OmPrakash",
+      "lname": "Yadav",
+      "dob": "1997-02-10",
+      "email": "omprakash.op@gamil.com",
+      "mobileno": 5897462135,
+      "designation": "Trainee-Developer",
+      "address": "Chandigarh, India"
+    },
+    {
+      "id": 108,
+      "fname": "Priya",
+      "lname": "Thakur",
+      "dob": "1996-02-04",
+      "email": "priyathakur.pt168@gmail.com",
+      "mobileno": 9805287168,
+      "designation": "Trainee",
+      "address": "Baddi, HP"
+    },
+    {
+      "id": 35,
+      "fname": "Abcd",
+      "lname": "Xyz",
+      "dob": "2020-03-13",
+      "email": "abcd@gmail.com",
+      "mobileno": 7894526354,
+      "designation": "fghdjs",
+      "address": "none"
+    }
+  ]
+}

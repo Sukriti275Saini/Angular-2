@@ -1,0 +1,30 @@
+.header
+{
+    align-items: baseline;
+}
+.navbar
+{
+    background: rgba(31, 6, 0, 0.705);
+    padding: 20px 0;
+    box-shadow: 0px 2px 4px black;
+}
+h1
+{
+    color: rgb(194, 149, 86);
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: -1px 3px 4px rgb(255, 221, 174);
+    outline: none;
+}
+h1 span
+{
+    color: rgb(194, 149, 86);
+    font-size: 30px;
+    font-weight: 400;
+    text-shadow: 1px 2px 4px rgb(255, 221, 174);
+    padding: 0 10px;
+}
+h1:hover
+{
+    cursor: pointer;
+}

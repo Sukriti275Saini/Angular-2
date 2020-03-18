@@ -1,0 +1,8 @@
+.delete-section
+{
+    margin-top: 30px;
+}
+input:disabled
+{ 
+    color: rgb(160, 160, 160);
+}

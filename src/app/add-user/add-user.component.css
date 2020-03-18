@@ -1,0 +1,68 @@
+.heading
+{
+    margin-top: 30px;
+    text-align: center;
+}
+h2
+{
+    font-size: 45px;
+    color: rgb(194, 149, 86);
+    text-shadow: 1px 1px 3px rgb(255, 243, 227);
+}
+.form-div
+{
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(31, 6, 0, 0.6);
+}
+.field-label
+{
+    color: rgb(194, 149, 86);
+    font-size: 22px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgb(255, 243, 227);
+
+}
+.field-text
+{
+    background: transparent;
+    color: rgb(194, 149, 86);
+    width: 100%;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+::placeholder
+{
+    color: rgba(255, 255, 255, 0.75);
+}
+button
+{
+    border: 2px solid white;
+    box-shadow: 2px 2px 4px white;
+    font-weight: bold;
+    border-radius: 8px;
+    background: rgba(13, 185, 13, 0.6);
+    color: white;
+    padding: 8px 30px;
+}
+button:hover
+{
+    box-shadow: none;
+}
+button.delete-btn{
+    background: rgba(255, 2, 2, 0.7);
+}
+button:disabled
+{
+    background: rgba(255, 0, 0, 0.8);
+}
+.ng-invalid:not(form)
+{
+    border: 2px solid rgba(255, 0, 0, 0.5);
+}
+.ng-valid:not(form)
+{
+    border: 2px solid rgba(13, 185, 13, 0.6);
+}

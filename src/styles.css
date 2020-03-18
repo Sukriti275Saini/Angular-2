@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url("../src/assets/Images/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+::-webkit-scrollbar{
+    height: 5px;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(54, 11, 0);
+}
+::-webkit-scrollbar-track{
+    background: rgba(194, 149, 86, 0.7);
+}

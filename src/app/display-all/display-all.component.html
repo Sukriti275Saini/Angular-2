@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="main-div">
+        <div class="buttons">
+            <button class="show-btn" (click)="showAll()" >Show all Users</button>
+            <button class="add-btn" [routerLink]="['/addnew']">Add a new User</button>
+        </div>
+
+        <div class="display-all" *ngIf ="display">
+            <table class="table table-striped table-bordered table-responsive table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">First Name</th>
+                        <th scope="col">Last Name</th>
+                        <th scope="col">Date Of Birth</th>
+                        <th scope="col">E-mail</th>
+                        <th scope="col">Mobile No.</th>
+                        <th scope="col">Designation</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Go To Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor ="let allusers of display">
+                        <td>{{allusers.id}}</td>
+                        <td>{{allusers.fname}}</td>
+                        <td>{{allusers.lname}}</td>
+                        <td>{{allusers.dob | date }}</td>
+                        <td>{{allusers.email}}</td>
+                        <td>{{allusers.mobileno | phnPattern }}</td>
+                        <td>{{allusers.designation}}</td>
+                        <td>{{allusers.address}}</td>
+                        <td><button class="details-btn" [routerLink]="['edit',allusers.id]" >Details</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+</div>
